@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+}
+
+.boximage {
+    background-color: #313A89;
+    text-align: center;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman';
+    color: #005677;
+}
+
+.styletitles {
+    font-family: 'Times New Roman';
+    color: #005677;
+    padding: 10px;
+    
+}
+
+span.cursiva{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.boxtitles {
+    background-color: #C4C4C4;
+}
+
+span.lists dl{
+    font-family: 'Times New Roman';
+    margin-left: 40px;
+    padding: 0;
+}
+
+strong{
+    font-weight: bold;
+}
+
+span.lists dt {
+    margin-top: 15px;
+}
+
+span.lists dd {
+    margin: 0 0 20px 87px; /* Ajuste de margen inferior y sangría izquierda */
+}
+
+.footer {
+    background-color: #005677; 
+    padding: 10px 0; /* Espaciado vertical */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.footer-text {
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.footer-icons {
+    display: flex;
+}
+
+.footer-icon {
+    margin-left: 10px;
+}
+
+.footer-icon img {
+    width: 20px; /* Ajustar el tamaño de los iconos según sea necesario */
+    height: 20px;
+}
